@@ -2,7 +2,7 @@ const indexImport = require('../index.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let licenseBadge = ''
+  let licenseBadge = '';
 
   if(license == 'none') {
     licenseBadge = '';
@@ -13,12 +13,14 @@ function renderLicenseBadge(license) {
   } else if (license == 'Apache') {
     licenseBadge = '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
   }
+
+  return licenseBadge;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let licenseLink = ''
+  let licenseLink = '';
 
   if(license == 'none') {
     licenseLink = ''
@@ -29,18 +31,22 @@ function renderLicenseLink(license) {
   } else if (license == 'Apache') {
     licenseLink = 'https://www.apache.org/licenses/LICENSE-2.0'
   }
+
+  return licenseLink;
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  let licenseSection = ''
+  let licenseSection = '';
 
-  if(license == 'none') {
+  if(license === 'none') {
     licenseSection = ''
   } else {
     licenseSection = `license : ${license}`
   }
+
+  return licenseSection;
 }
 
 // TODO: Create a function to generate markdown for README

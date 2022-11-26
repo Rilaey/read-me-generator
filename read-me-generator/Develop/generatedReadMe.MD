@@ -1,9 +1,9 @@
 
   # t
 
-  ## undefined undefined
+  ## license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  ### undefined
+  ### https://opensource.org/licenses/MIT
 
   ## Table of Contents:
 
@@ -16,7 +16,7 @@
   ### * [Questions](#questions)
 
   ## Description: 
-  ### undefined
+  ### t
 
   ## Installation:
   ### You must have the following for the application to function correctly: 
@@ -26,12 +26,12 @@
   ### t
 
   ## Contributions
-  ### t
+  ### f
 
   ## Tests
-  ### t
+  ### f
 
   ## Questions
   ### Have any questions? You can contact me here.
-  ### Github: https://github.com/t
-  ### Email: t
+  ### Github: https://github.com/f
+  ### Email: f
