@@ -56,38 +56,38 @@ function generateMarkdown(data) {
 
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
 
-  ### ${renderLicenseLink(data.license)}
+  ## ${renderLicenseLink(data.license)}
 
   ## Table of Contents:
 
-  ### * [Description](#description)
-  ### * [Installation](#installation)
-  ### * [Usage](#usage)
-  ### * [License](#license)
-  ### * [Contributions](#contributions)
-  ### * [Tests](#tests)
-  ### * [Questions](#questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributions](#contributions)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Description: 
-  ### ${data.description}
+  -  ${data.description}
 
   ## Installation:
-  ### You must have the following for the application to function correctly: 
-  ### ${data.installation}
+  - You must have the following for the application to function correctly: 
+  - ${data.installation}
 
   ## Usage
-  ### ${data.usage}
+  - ${data.usage}
 
   ## Contributions
-  ### ${data.contributions}
+  - ${data.contributions}
 
   ## Tests
-  ### ${data.tests}
+  - ${data.tests}
 
   ## Questions
-  ### Have any questions? You can contact me here.
-  ### Github: https://github.com/${data.github}
-  ### Email: ${data.email}
+  - Have any questions? You can contact me here.
+  - Github: https://github.com/${data.github}
+  - Email: ${data.email}
 `;
 }
 

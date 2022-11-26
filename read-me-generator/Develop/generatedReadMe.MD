@@ -1,37 +1,37 @@
 
   # t
 
-  ## license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ## license : Apache ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-  ### https://opensource.org/licenses/MIT
+  ## https://www.apache.org/licenses/LICENSE-2.0
 
   ## Table of Contents:
 
-  ### * [Description](#description)
-  ### * [Installation](#installation)
-  ### * [Usage](#usage)
-  ### * [License](#license)
-  ### * [Contributions](#contributions)
-  ### * [Tests](#tests)
-  ### * [Questions](#questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributions](#contributions)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Description: 
-  ### t
+  -  t
 
   ## Installation:
-  ### You must have the following for the application to function correctly: 
-  ### t
+  - You must have the following for the application to function correctly: 
+  - t
 
   ## Usage
-  ### t
+  - t
 
   ## Contributions
-  ### f
+  - d
 
   ## Tests
-  ### f
+  - d
 
   ## Questions
-  ### Have any questions? You can contact me here.
-  ### Github: https://github.com/f
-  ### Email: f
+  - Have any questions? You can contact me here.
+  - Github: https://github.com/d
+  - Email: d
