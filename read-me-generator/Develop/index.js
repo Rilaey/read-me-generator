@@ -32,18 +32,30 @@ const questions = [
         }
     },
     {
-        name: "table-of-contents",
-
-    },
-    {
         name: "installation",
         input: "input",
-        message: "Please enter any steps for installation"
+        message: "Please enter any steps for installation",
+        validate: installInput => {
+            if(installInput) {
+                return true;
+            } else {
+                console.log("please enter installation steps. if none enter none")
+                return false;
+            }
+        }
     },
     {
         name: "usage",
         type: "input",
-        message: "Please enter the usage for this application."
+        message: "Please enter the usage for this application.",
+        validate: usageInput => {
+            if(usageInput) {
+                return true;
+            } else {
+                console.log("please enter usage information.")
+                return false;
+            }
+        }
     },
     {
         name: "license",
@@ -62,22 +74,54 @@ const questions = [
     {
         name: "contributions",
         input: "input",
-        message: "Please list any contributors for this project."
+        message: "Please list any contributors for this project.",
+        validate: contributionInput => {
+            if(contributionInput) {
+                return true;
+            } else {
+                console.log("please enter any contributers. if none enter none")
+                return false;
+            }
+        }
     },
     {
         name: "tests",
         type: "input",
-        message: "Are there any tests for your project?"
+        message: "Are there any tests for your project?",
+        validate: testInput => {
+            if(testInput) {
+                return true;
+            } else {
+                console.log("please enter any tests for your project. if none enter none")
+                return false;
+            }
+        }
     },
     {
-        name: "questions",
+        name: "github",
         type: "input",
-        message: "What is your github username?"
+        message: "What is your github username?",
+        validate: gitInput => {
+            if(gitInput) {
+                return true;
+            } else {
+                console.log("please enter your github. if none enter none")
+                return false;
+            }
+        }
     },
     {
-        name: "questions",
+        name: "email",
         type: "input",
-        message: "What is your email?"
+        message: "What is your email?",
+        validate: emailInput => {
+            if(emailInput) {
+                return true;
+            } else {
+                console.log("please enter your email. if none enter none")
+                return false;
+            }
+        }
     },
 ]
 
@@ -95,8 +139,15 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(writeToFile(data))
+    .then(function(data) {
+        console.log(data);
+    let fileName = generateMarkdownFile(data);   
+    writeToFile(fileName);
+    })
 }
 
 // Function call to initialize app
 init();
+
+// export questions
+module.exports = questions
