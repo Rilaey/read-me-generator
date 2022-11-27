@@ -1,9 +1,9 @@
 
   # t
 
-  ## license : Apache ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ## license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  ## https://www.apache.org/licenses/LICENSE-2.0
+  ## https://opensource.org/licenses/MIT
 
   ## Table of Contents:
 
@@ -26,12 +26,12 @@
   - t
 
   ## Contributions
-  - d
+  - r
 
   ## Tests
-  - d
+  - r
 
   ## Questions
   - Have any questions? You can contact me here.
-  - Github: https://github.com/d
-  - Email: d
+  - Github: https://github.com/r
+  - Email: r
