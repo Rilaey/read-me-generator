@@ -12,7 +12,7 @@
   * [Questions](#questions)
 
   ## Description: 
-  -  find a random park!
+  -  find random parks
 
   ## Installation:
   - You must have the following for the application to function correctly: 
