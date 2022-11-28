@@ -1,9 +1,5 @@
 
-  # t
-
-  ## license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-  ## https://opensource.org/licenses/MIT
+  # park finder
 
   ## Table of Contents:
 
@@ -16,22 +12,27 @@
   * [Questions](#questions)
 
   ## Description: 
-  -  t
+  -  find random parks
 
   ## Installation:
   - You must have the following for the application to function correctly: 
-  - t
+  - none
 
   ## Usage
-  - t
+  - visit application at the link provided
+
+  ## License
+  - license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+  - https://opensource.org/licenses/MIT
 
   ## Contributions
-  - r
+  - none
 
   ## Tests
-  - r
+  - none
 
   ## Questions
   - Have any questions? You can contact me here.
-  - Github: https://github.com/r
-  - Email: r
+  - Github: https://github.com/rilaey
+  - Email: xrileynewhart@gmail.com

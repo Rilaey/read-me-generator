@@ -54,10 +54,6 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
-
-  ## ${renderLicenseLink(data.license)}
-
   ## Table of Contents:
 
   * [Description](#description)
@@ -77,6 +73,11 @@ function generateMarkdown(data) {
 
   ## Usage
   - ${data.usage}
+
+  ## License
+  - ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+
+  - ${renderLicenseLink(data.license)}
 
   ## Contributions
   - ${data.contributions}

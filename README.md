@@ -7,3 +7,11 @@
 - This program solves the issue of having to take the time to create a polished read-me. While using this program all you have to worry about is the content you want to be on the read-me file. Lets take the heavy lifting out of creating a read-me!
 
 - During the time of creating this program I learned how useful node.js can be, how to properly use npm, and how to properly use the documentation provided for npm extensions such as the documentation for inquirer.
+
+## Installation
+- For the program to run correctly you must have node.js installed and inquirer.js
+- To download node.js visit the documentation here https://nodejs.org/en/download/
+- After installing node.js, download the npm extension inquirer here http://adilapapaya.com/docs/inquirer/
+
+# Usage
+-![Video of application](https://app.castify.com/watch/090e2c3b-843e-47f3-b2c7-23bbd20dd0af)
