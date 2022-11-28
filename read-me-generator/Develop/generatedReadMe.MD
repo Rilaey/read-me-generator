@@ -12,14 +12,14 @@
   * [Questions](#questions)
 
   ## Description: 
-  -  find random parks
+  -  find a random park!
 
   ## Installation:
   - You must have the following for the application to function correctly: 
   - none
 
   ## Usage
-  - visit application at the link provided
+  - none
 
   ## License
   - license : MIT ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
