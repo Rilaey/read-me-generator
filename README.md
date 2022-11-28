@@ -14,4 +14,4 @@
 - After installing node.js, download the npm extension inquirer here http://adilapapaya.com/docs/inquirer/
 
 # Usage
--![Video of walk through](read-me-generator)
+-![Video of walk through](https://drive.google.com/file/d/1pXru1y2MnI72kFNxOm33fXUUE504Rfj5/view?usp=share_link)
